@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin: 0;
+    padding: 0;
+}
+#root{
+    padding: 0;
+}
+.Card{
+    @apply w-40 h-52 bg-lipstick shadow-md bg-contain bg-no-repeat bg-center rounded-xl border-2 relative
+}
+
+.Card2{
+    @apply w-40 h-52 bg-eye bg-contain shadow-md bg-no-repeat bg-center rounded-xl border-2 relative
+}
